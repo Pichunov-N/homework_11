@@ -1,8 +1,8 @@
 let myPromise = new Promise(function (resolve, reject) {
-    setTimeout(() => {
+    setTimeout(() =>
         resolve("done"), 5000
         // reject(new Error ("something going wrong")), 5000
-    });
+    );
 });
 
 myPromise
